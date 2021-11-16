@@ -4,5 +4,52 @@
 }
 
 body {
-    background-color: blue;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    padding: 25px; 
+    background-color: teal;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    gap: 30px;
+}
+
+.display {
+    background-color: tan;
+    width: 100%;
+    flex: 1;
+}
+
+.buttons {
+    padding: 10px;
+    background-color:darkgreen;
+    width: 100%;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    gap: 10px;
+}
+
+.operations {
+    width: 100%;
+    flex: 1;
+    background-color: red;
+}
+
+.digits {
+    width: 100%;
+    flex: 4;
+    background-color: yellow;
 }
